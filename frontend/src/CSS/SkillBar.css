@@ -1,0 +1,53 @@
+
+.skill-container {
+  margin: 2px 0;
+  font-family: "Inter";
+}
+.cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.skill-name {
+  margin-bottom: 2px;
+  font-size: 15px;
+  padding-right: 30%;
+  flex: 1.5;
+  font-family: "Inter";
+  color: rgba(118, 118, 118, 1);
+  text-align: left;
+}
+.skill-name1 {
+    margin-bottom: 2px;
+    font-size: 15px;
+    flex: 0.5;
+    font-family: "Inter";
+    color: rgba(118, 118, 118, 1);
+  }
+.skill-bar {
+  position: relative;
+  background-color: #ffffff; 
+  border: 2px solid rgba(255, 180, 0, 1); 
+  border-radius: 5px; 
+  width: 250px; 
+  height: 2px; 
+  padding: 0.5px;
+  overflow: hidden; 
+}
+
+.Skill-bar-fill {
+  background-color: rgba(255, 180, 0, 1); 
+  height: 1rem;
+  transition: width 0.5s ease-in-out;
+}
+
+.skill-bar-text {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(118, 118, 118, 1);
+  line-height: 30px; 
+  white-space: nowrap;
+}

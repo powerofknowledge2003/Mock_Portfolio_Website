@@ -1,0 +1,19 @@
+.Padd{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    padding: 10px 20px;
+}
+.head_rec{
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
+.para{
+    text-align: center;
+    text-transform: capitalize;
+    line-height: 24px;
+    padding: 0px 420px;
+    color: #767676;
+    font-size: 15px;
+}

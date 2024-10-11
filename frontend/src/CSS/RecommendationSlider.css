@@ -1,0 +1,17 @@
+.recommendation-slider {
+  max-width: 1200px;
+  margin: 2vw auto; 
+   padding: 5px 0px; 
+}
+.slick-dots li button:before {
+  font-size: 10px; 
+  color: #e8bf7d; 
+  opacity: 0.75;  
+  padding-top: 50%;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1; 
+  color: rgba(255, 180, 0, 1); 
+  padding-top: 50%;
+}

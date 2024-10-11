@@ -1,0 +1,89 @@
+.footer{
+    background-color: #F0F0F6;
+    padding: 0px, 0px, 20px, 0px;
+    height: 621px;
+}
+.image3 {
+    display: flex;
+    align-items: center;
+    padding: 0px 220px;
+    justify-content: center;
+    width: auto;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    margin: 45px 0px 0px 100px;
+    background-color: #F0F0F6;
+  }
+
+  .copyright{
+    display: flex;
+    justify-content: center;
+    color: #767676;
+    align-items: center;
+    margin: 20px;
+  }
+
+.con{
+  width: 177px;
+  height: 21px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: capitalize;
+  font-feature-settings: 'calt' off, 'kern' off;
+  color: #767676;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  padding-bottom: 20px;
+}
+.img{
+width: 76px;
+height: 40px;
+background: url(39ef2565-05a4-4b54-98e2-7c68af6ad5a7.jpg), url(fiverr-removebg-preview.png);
+border-radius: 4px;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.rec{
+  justify-content: center;
+  align-items: center;
+  flex: 0.5;
+}
+.outer1{
+  margin: 50px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+}
+
+.dis{
+  display: flex;
+  flex-direction: row;
+  flex: 1.5;
+  justify-content: space-between;
+  margin: 0px 10px 0px 200px;
+}
+a:link , a:visited , a:hover , a:active{
+  text-decoration: none;
+  color: black;
+}
+li {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  line-height: 30px;
+}
+.head{
+  margin-bottom: 20px;
+  font-size: large;
+}

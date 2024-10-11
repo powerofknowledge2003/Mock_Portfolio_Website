@@ -1,0 +1,108 @@
+{
+  "projects": [
+    {
+      "id": "0",
+      "title": "How to make Flyer Design",
+      "image": "../images/p1.jpg",
+      "skills": {
+        "one": "TypeScript",
+        "two": "React",
+        "three": "Node"
+      }
+    },
+    {
+      "id": "1",
+      "title": "How to create a Portfolio Website",
+      "image": "../images/p2.jpg",
+      "skills": {
+        "one": "HTML",
+        "two": "CSS",
+        "three": "JavaScript"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Building a REST API",
+      "image": "../images/p3.jpg",
+      "skills": {
+        "one": "Express",
+        "two": "MongoDB",
+        "three": "Node"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Introduction to Docker",
+      "image": "../images/p4.jpg",
+      "skills": {
+        "one": "Docker",
+        "two": "Kubernetes",
+        "three": "CI/CD"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Advanced React Patterns",
+      "image": "../images/p1.jpg",
+      "skills": {
+        "one": "React",
+        "two": "Redux",
+        "three": "Hooks"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Full Stack Development",
+      "image": "../images/p5.jpg",
+      "skills": {
+        "one": "React",
+        "two": "Node",
+        "three": "PostgreSQL"
+      }
+    }
+  ],
+  "recommendations": [
+    {
+      "image": "../images/Profile1.jpg",
+      "review_title": "Great Quality!",
+      "name": "James Gouse",
+      "title": "Graphic Designer",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+      "id": "6e6b"
+    },
+    {
+      "image": "../images/Profile2.jpg",
+      "review_title": "Amazing Work!",
+      "name": "Tiana Philips",
+      "title": "Photographer",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+      "id": "cf10"
+    },
+    {
+      "image": "../images/Profile3.jpg",
+      "review_title": "Great Quality!",
+      "name": "Talan Westervelt",
+      "title": "Business Man",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+      "id": "fdde"
+    },
+    {
+      "image": "../images/Profile1.jpg",
+      "review_title": "Great Quality!",
+      "name": "James Gouse",
+      "title": "Graphic Designer",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+      "id": "99e6"
+    },
+    {
+      "image": "../images/Profile2.jpg",
+      "review_title": "Amazing Work!",
+      "name": "Tiana Philips",
+      "title": "Photographer",
+      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+      "id": "9978"
+    }
+  ],
+  "messages": [
+  ]
+}

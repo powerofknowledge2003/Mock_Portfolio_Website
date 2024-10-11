@@ -1,0 +1,156 @@
+.Hero {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 600px;
+  background-color: white;
+  font-family: "Inter";
+}
+.content {
+  flex-direction: column;
+  padding-left: 10%;
+  z-index: 2;
+  justify-content: space-between;
+}
+
+.des {
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-family: Inter;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 59.33px;
+  text-align: left;
+}
+
+.highlighting {
+  color: rgb(227, 170, 13);
+}
+
+.about {
+  font-family: "Inter";
+  line-height: 24px;
+  text-align: start;
+  font-size: 1.6rem;
+  color: rgba(118, 118, 118, 1);
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  padding: 5% 0%;
+}
+
+.Hire-button {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hire-b button {
+  background-color: rgb(227, 170, 13);
+  color: #000;
+  border: none;
+  padding: 17px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s;
+  border-radius: 5%;
+  gap: 10px;
+  font-size: 16px;
+}
+
+.hire-b button:hover {
+  background-color: rgb(227, 170, 13);
+}
+
+.hire-b button svg {
+  margin-left: 10px;
+}
+
+.photo {
+  display: flex;
+  flex: 1.5;
+  justify-content: end;
+  align-items: flex-end;
+  padding-top: 5%;
+}
+
+.photo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.shape1 {
+  border: 2px solid #ffb400;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  z-index: 10;
+  top: 20vh;
+  left: 7vw;
+  position: absolute;
+}
+.shape2 {
+  border: 2px solid #ffb400;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  z-index: 10;
+  top: 82vh;
+  left: 58.6vw;
+  position: absolute;
+}
+.shape3 {
+  border: 2px solid #05ff00;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  z-index: 10;
+  top: 90vh;
+  left: 14vw;
+  position: absolute;
+}
+.shape4 {
+  border: 2px solid #05ff00;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  z-index: 10;
+  top: 23vh;
+  left: 55vw;
+  position: absolute;
+}
+.shape5 {
+  border: 2px solid #ffb400;
+  width: 15px;
+  height: 15px;
+  z-index: 10;
+  top: 27.5vh;
+  left: 88.5vw;
+  position: absolute;
+  transform: rotate(25deg);
+}
+.shape6 {
+  border: 2px solid #0047ff;
+  width: 15px;
+  height: 15px;
+  z-index: 10;
+  top: 71vh;
+  left: 38.7vw;
+  position: absolute;
+  transform: rotate(25deg);
+}
+.shape7 {
+  width: 0;
+  height: 0;
+  border-left: 7.5px solid transparent;
+  border-right: 7.5px solid transparent;
+  border-bottom: 13px solid red; 
+  transform: translateY(-2px); 
+  z-index: 10;
+  top: 90vh;
+  left: 90.85vw;
+  position: absolute;
+}

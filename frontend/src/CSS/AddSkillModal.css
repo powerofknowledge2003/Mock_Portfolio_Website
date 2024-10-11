@@ -1,0 +1,109 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: 'Inter';
+}
+
+.modal h2 {
+  margin-top: 0;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Inter';
+  font-size: 36px;
+}
+
+.modal label {
+  display: block;
+  margin: 15px 0 5px;
+  font-weight: bold;
+  color: #2B2B2B;
+  text-align: left;
+  font-size: 18px;
+}
+
+.domain-input,
+.skill-inputs input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 5px 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #F0F0F6;
+}
+
+.skills-section {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.skills-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.skill-inputs {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.skill-inputs input {
+  width: 48%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.add-skill {
+  background-color: #ffd700;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 0px 15px;
+}
+
+.cancel {
+  background-color: #FFFFFF;
+  border: 1px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.cancel:hover{
+  background-color: #FFFFFF;
+  color: #ff4d4d;
+  border: 1px solid #ff4d4d;
+}
+
+.error-border {
+  border: 2px solid red !important;
+}

@@ -1,0 +1,60 @@
+
+.recommendation-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 270px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.stars {
+  color: #FFD700; /* Gold color for stars */
+  margin-bottom: 10px;
+}
+
+.star {
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+.review-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.review {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 24px;
+  font-family: 'Inter';
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.name {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 10% auto;
+}
+
+.title {
+  font-size: 0.8rem;
+  color: #767676;
+  margin: 0%;
+}
